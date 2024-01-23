@@ -1,0 +1,35 @@
+.card-component{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/* Стилове за Card */
+.card {
+    width: 250px;
+    border: 1px solid #ddd; /* Цвят на границата на картата */
+    border-radius: 8px; /* Закръгление на ъглите */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Сянка за ефект на подемане */
+    margin: 16px; /* Отстъп от картата до други елементи */
+    /* overflow: hidden; Скриване на излишния съдържание (ако има) */
+    transition: transform 0.2s ease-in-out; /* Плавен преход при ховър */
+    padding: 30px;
+    background-color: rgb(176, 234, 246);
+  }
+  
+  .card:hover {
+    transform: scale(1.02); /* Увеличение на картата при ховър */
+  }
+  
+  /* Заглавие на картата */
+  .card-title {
+    font-size: 1.5rem; /* Големина на шрифта за заглавието */
+    margin-bottom: 8px; /* Отстъп отдолу на заглавието */
+  }
+  
+  /* Съдържание на картата */
+  .card-content {
+    padding: 16px; /* Отстъп от съдържанието до границите на картата */
+  }
+  
